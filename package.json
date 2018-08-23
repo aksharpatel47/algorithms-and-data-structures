@@ -1,0 +1,27 @@
+{
+  "name": "algorithms-and-data-structures",
+  "version": "1.0.0",
+  "description": "Algorithms and Data Structures written in Python, Typescript and Rustlang",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksharpatel47/algorithms-and-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksharpatel47/algorithms-and-data-structures/issues"
+  },
+  "homepage": "https://github.com/aksharpatel47/algorithms-and-data-structures#readme",
+  "devDependencies": {
+    "@types/jest": "^23.3.1",
+    "jest": "^23.5.0",
+    "ts-jest": "^23.1.4",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.0.1"
+  }
+}
