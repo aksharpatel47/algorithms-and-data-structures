@@ -1,7 +1,7 @@
 from typing import List
 
 
-def insertion_sort(values: List[int]) -> List[int]:
+def selection_sort(values: List[int]) -> List[int]:
     for i, val in enumerate(values):
         least_index = i
         for j in range(i, len(values)):

@@ -1,4 +1,4 @@
-import { insertionSort } from "./insertion_sort";
+import { insertionSort } from "./selection_sort";
 
 describe("Insertion Sort", () => {
   test("Should sort the array of numbers", () => {
