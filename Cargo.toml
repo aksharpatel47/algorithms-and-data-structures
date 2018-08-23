@@ -1,0 +1,6 @@
+[package]
+name = "algorithms-and-data-structures"
+version = "0.1.0"
+authors = ["Akshar Patel <akshar.patel.47@gmail.com>"]
+
+[dependencies]
