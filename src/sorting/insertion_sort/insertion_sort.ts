@@ -1,4 +1,4 @@
-export function insertion_sort(values: number[]): number[] {
+export function sort(values: number[]): number[] {
   for (let j = 1; j < values.length; j++) {
     let key = values[j];
 

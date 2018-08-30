@@ -1,7 +1,7 @@
 from typing import List
 
 
-def insertion_sort(values: List[int]) -> List[int]:
+def sort(values: List[int]) -> List[int]:
     for j in range(1, len(values)):
         key = values[j]
 
