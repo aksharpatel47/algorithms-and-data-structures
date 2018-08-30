@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sort(values: List[int]) -> List[int]:
+def sort(values: List[int]):
     for i, val in enumerate(values):
         least_index = i
         for j in range(i, len(values)):
@@ -10,5 +10,3 @@ def sort(values: List[int]) -> List[int]:
 
         values[i] = values[least_index]
         values[least_index] = val
-
-    return values
