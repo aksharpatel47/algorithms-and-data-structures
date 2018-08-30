@@ -1,7 +1,7 @@
 from typing import List
 
 
-def sort(values: List[int]) -> List[int]:
+def sort(values: List[int]):
     for j in range(1, len(values)):
         key = values[j]
 
@@ -12,5 +12,3 @@ def sort(values: List[int]) -> List[int]:
             i -= 1
 
         values[i + 1] = key
-
-    return values

@@ -1,4 +1,4 @@
-export function sort(values: number[]): number[] {
+export function sort(values: number[]) {
   for (let j = 1; j < values.length; j++) {
     let key = values[j];
 
@@ -11,6 +11,4 @@ export function sort(values: number[]): number[] {
 
     values[i + 1] = key;
   }
-
-  return values;
 }
