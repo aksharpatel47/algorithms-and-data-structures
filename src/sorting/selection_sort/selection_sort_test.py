@@ -1,5 +1,5 @@
 import unittest
-from src.sorting.selection_sort.selection_sort import sort
+from .selection_sort import sort
 
 
 class SelectionSortTest(unittest.TestCase):

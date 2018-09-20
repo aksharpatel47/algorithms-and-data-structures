@@ -1,4 +1,4 @@
-from src.sorting.insertion_sort.insertion_sort import sort
+from .insertion_sort import sort
 import unittest
 
 
