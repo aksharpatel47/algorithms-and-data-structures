@@ -33,6 +33,4 @@ class WordCloudTest(TestCase):
         a = calc_word_cloud_n(self.line)
         self.assertEqual(a, self.c)
         b = calc_word_cloud_n(self.line2)
-        print(b)
-        print(self.c2)
         self.assertEqual(b, self.c2)
