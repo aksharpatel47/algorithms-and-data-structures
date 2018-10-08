@@ -1,7 +1,7 @@
 from typing import List
 
 
-def maximum_subarray(prices: List[int]) -> (int, int):
+def max_profit_buy_sell(prices: List[int]) -> (int, int):
     """
     Based on the given list of stock prices, find out on which
     day to buy and on which day to sell to get the maximum profit.
