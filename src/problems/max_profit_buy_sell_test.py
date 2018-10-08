@@ -2,7 +2,7 @@ from unittest import TestCase
 from .max_profit_buy_sell import max_profit_buy_sell
 
 
-class MaximumSubArrayTest(TestCase):
+class MaxProfitBuySellTest(TestCase):
     def test_error_on_empty_input(self):
         with self.assertRaises(ValueError):
             max_profit_buy_sell([])
@@ -16,3 +16,7 @@ class MaximumSubArrayTest(TestCase):
         self.assertEqual(max_profit_buy_sell([2, 1]), None)
         self.assertEqual(max_profit_buy_sell(
             [100, 113, 110, 85, 105, 102, 86, 63, 81, 101, 94, 106, 101, 79, 94, 90, 97]), (7, 11))
+        input = [10, 7, 5, 8, 11, 9]
+        buy, sell = max_profit_buy_sell(input)
+        profit = input[sell] - input[buy]
+        self.assertEqual(profit, 6)
