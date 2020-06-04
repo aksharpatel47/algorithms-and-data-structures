@@ -4,3 +4,7 @@ node_modules
 /target
 **/*.rs.bk
 .vscode
+*.exe
+*.obj
+*.ilk
+*.pdb
