@@ -1,6 +1,0 @@
-[package]
-name = "algorithms"
-version = "0.1.0"
-authors = ["Akshar Patel <akshar.patel.47@gmail.com>"]
-
-[dependencies]
