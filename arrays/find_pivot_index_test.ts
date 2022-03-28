@@ -1,4 +1,4 @@
-import { pivotIndex } from "./find.pivot.index";
+import { pivotIndex } from "./find_pivot_index";
 
 it.each([
   [[1, 7, 3, 6, 5, 6], 3],
