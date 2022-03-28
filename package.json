@@ -1,0 +1,26 @@
+{
+  "name": "algorithms-and-data-structures",
+  "version": "1.0.0",
+  "description": "Algorithms and Data Structures written in C# and Python. The algorithms are exposed through Grpc services which is consumed using a Dart client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aksharpatel47/algorithms-and-data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aksharpatel47/algorithms-and-data-structures/issues"
+  },
+  "homepage": "https://github.com/aksharpatel47/algorithms-and-data-structures#readme",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
+  }
+}
